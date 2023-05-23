@@ -1,0 +1,75 @@
+/*archivo de estilo correspondiente a pagina index de inicio*/
+@import "../mixins/mixins";
+
+.imagen1{
+    
+    
+    img{ 
+        width:200px;
+     }
+
+}
+
+
+
+@media (min-width:768px)  {
+    .imagen1{
+       
+        
+        img{
+            width:300px;
+            
+        }
+    }
+}
+@media (min-width:768px)  {
+    .imagen1{
+       
+       
+        img{
+            width:350px;
+            
+        }
+    }
+}
+.videos{
+    
+    width:200px;
+    height: 200px;
+}
+
+
+@media (min-width:768px){
+    .videos{
+    
+        width:300px;
+        height: 300px;
+    }
+    
+}
+@media (min-width:768px){
+    .videos{
+    
+        width:350px;
+        height: 350px;
+    }
+    
+}
+
+
+.texto_comentario{
+    color: rgb(46, 165, 42);
+    font-weight: 700;
+    width:80%;
+    margin:auto;
+    margin-top: 50px;
+}
+
+.alinear{
+    margin:0 auto;
+}
+.texto{
+    color:rgb(183, 0, 255);
+    font-weight: 900;
+    
+}
